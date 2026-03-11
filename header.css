@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(247, 247, 247);
+
+}
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.caixa{
+ width: fit-content;             
+    height: 100px;            
+    background-color: #f0f0f0; 
+    border: 2px solid #333;   
+    padding: 20px;            
+    margin: 10px; 
+    justify-content: space-evenly;
+    display: flex;
+    text-align: justify;
+}
+
+
+
+.opcoes{
+    align-items: center;
+    color: blue;
+    text-align: justify;
+}
+
+.p{
+    align-items: center;
+        display: flex;
+
+}
+
+
+/* Style the topnav */
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #efa300
+;
+  color: black;
+}
+
